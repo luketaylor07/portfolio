@@ -2,7 +2,6 @@
 
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
 
 export default function Home() {
 
@@ -10,7 +9,6 @@ export default function Home() {
         <div className="p-5">
             <Hero />
             <Skills />
-            <Projects />
         </div>
     );
 }
