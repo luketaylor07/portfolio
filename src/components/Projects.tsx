@@ -12,25 +12,11 @@ import "swiper/css/navigation";
 
 const projects = [
     {
-        title: "Project One",
-        description: "A brief description of project one, highlighting key features and technologies used.",
+        title: "Not introduced yet",
+        description: "Not introduced ",
         image: "/images/project1-placeholder.png",
         link: "https://github.com/yourusername/project-one",
-        tags: ["React", "Node.js", "MongoDB"],
-    },
-    {
-        title: "Project Two",
-        description: "Description for the second project, focusing on its unique aspects and challenges solved.",
-        image: "/images/project2-placeholder.png",
-        link: "https://yourprojecttwo.com",
-        tags: ["Next.js", "Tailwind CSS", "PostgreSQL"],
-    },
-    {
-        title: "Project Three",
-        description: "Details about project three, perhaps emphasizing collaboration or specific outcomes achieved.",
-        image: "/images/project3-placeholder.png",
-        link: "#",
-        tags: ["TypeScript", "Express", "Docker"],
+        tags: ["React", "Node.js"],
     },
 ];
 
@@ -40,7 +26,7 @@ export default function Projects() {
             <div className="max-w-6xl mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
                 <p className="text-gray-600 dark:text-gray-400 text-lg text-center mb-12">
-                    A selection of projects I've worked on, showcasing different skills and technologies.
+                    A selection of projects I&apos;ve worked on, showcasing different skills and technologies.
                 </p>
 
                 <Swiper
